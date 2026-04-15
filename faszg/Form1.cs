@@ -25,7 +25,24 @@ namespace faszg
 
         private void történetToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Tortenet tSite = new Tortenet();
             this.Close();
+
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HomeSite HSIte = new HomeSite();
+            this.Close();
+        }
+
+        private void tanárokToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }
