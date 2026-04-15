@@ -1,6 +1,6 @@
 ﻿namespace faszg
 {
-    partial class HomeSite
+    partial class Tortenet
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.történetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tanárokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,59 +48,51 @@
             this.bezárToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.homeToolStripMenuItem.Text = "Home";
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
             // történetToolStripMenuItem
             // 
             this.történetToolStripMenuItem.Name = "történetToolStripMenuItem";
-            this.történetToolStripMenuItem.Size = new System.Drawing.Size(78, 26);
+            this.történetToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
             this.történetToolStripMenuItem.Text = "Történet";
-            this.történetToolStripMenuItem.Click += new System.EventHandler(this.történetToolStripMenuItem_Click);
             // 
             // tanárokToolStripMenuItem
             // 
             this.tanárokToolStripMenuItem.Name = "tanárokToolStripMenuItem";
-            this.tanárokToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.tanárokToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.tanárokToolStripMenuItem.Text = "Tanárok";
             // 
             // aToolStripMenuItem
             // 
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(55, 26);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.aToolStripMenuItem.Text = "12/A";
             // 
             // bezárToolStripMenuItem
             // 
             this.bezárToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.bezárToolStripMenuItem.Name = "bezárToolStripMenuItem";
-            this.bezárToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
+            this.bezárToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.bezárToolStripMenuItem.Text = "Bezár";
-            this.bezárToolStripMenuItem.Click += new System.EventHandler(this.bezárToolStripMenuItem_Click);
             // 
-            // HomeSite
+            // Tortenet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "HomeSite";
-            this.Text = "Form1";
+            this.Name = "Tortenet";
+            this.Text = "Tortenet";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -118,7 +108,5 @@
         private System.Windows.Forms.ToolStripMenuItem tanárokToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bezárToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
-

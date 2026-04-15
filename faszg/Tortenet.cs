@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace faszg
 {
-    public partial class HomeSite : Form
+    public partial class Tortenet : Form
     {
-        public HomeSite()
+        public Tortenet()
         {
             InitializeComponent();
         }
 
-        private void bezárToolStripMenuItem_Click(object sender, EventArgs e)
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             this.Close();
-            Application.Exit();
-        }
-
-        private void történetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-
         }
     }
 }
